@@ -1,0 +1,9 @@
+15:57:42 **** Incremental Build of configuration Debug for project putc_getc ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o putc_getc.o "..\\putc_getc.c" 
+gcc -o putc_getc.exe putc_getc.o 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file putc_getc.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+15:57:42 Build Failed. 1 errors, 0 warnings. (took 376ms)
+

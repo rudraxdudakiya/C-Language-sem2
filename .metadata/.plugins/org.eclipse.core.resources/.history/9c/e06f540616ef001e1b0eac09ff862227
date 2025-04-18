@@ -1,0 +1,75 @@
+/*
+ * o_e.c
+ *
+ *  Created on: 31-Mar-2024
+ *      Author: Rudrax
+ */
+
+
+#include<stdio.h>
+#include<stdlib.h>
+
+#define size 10
+
+int main()
+{
+	setbuf(stdout,NULL);
+    FILE *fp,*fodd,*feven;
+
+    printf("Enter 10 integers:\n");
+
+    int i,no;
+    fp=fopen("Numbers.txt","a");
+
+        for(i=0;i<size;i++)
+        {
+            scanf("%d" ,&no);
+            putw(no,fp);
+        }
+
+    fclose(fp);
+
+    fp=fopen("Numbers.txt","r");
+    fodd=fopen("Odd.txt","w");
+    feven=fopen("Even.txt","w");
+
+        while((no=getw(fp)) != EOF)
+        {
+            if(no%2 == 0)
+                putw(no,feven);
+            else
+                putw(no,fodd);
+        }
+
+    fclose(feven);
+    fclose(feven);
+    fclose(fp);
+
+
+    fp=fopen("Numbers.txt","r");
+    fodd=fopen("Odd.txt","r");
+    feven=fopen("Even.txt","r");
+
+        printf("\nNumbers.txt: ");
+        while((no=getw(fp)) != EOF)
+        {
+            printf("%d\t",no);
+        }
+
+        printf("\nEven.txt: ");
+        while((no=getw(feven)) != EOF)
+        {
+            printf("%d\t",no);
+        }
+
+        printf("\nOdd.txt: ");
+        while((no=getw(fodd)) != EOF)
+        {
+            printf("%d\t",no);
+        }
+
+    fclose(feven);
+    fclose(feven);
+    fclose(fp);
+    return 0;
+}

@@ -1,0 +1,7 @@
+16:20:10 **** Incremental Build of configuration Debug for project getw_putw ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o getw_putw.o "..\\getw_putw.c" 
+gcc -o getw_putw.exe getw_putw.o 
+
+16:20:11 Build Finished. 0 errors, 0 warnings. (took 444ms)
+

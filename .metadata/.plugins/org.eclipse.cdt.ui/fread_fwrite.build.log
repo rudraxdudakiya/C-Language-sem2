@@ -1,0 +1,7 @@
+17:37:35 **** Incremental Build of configuration Debug for project fread_fwrite ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o fread_fwrite.o "..\\fread_fwrite.c" 
+gcc -o fread_fwrite.exe fread_fwrite.o 
+
+17:37:35 Build Finished. 0 errors, 0 warnings. (took 377ms)
+
