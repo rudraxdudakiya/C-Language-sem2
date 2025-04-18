@@ -1,0 +1,100 @@
+09:38:34 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:38:51 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:43:35 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.o" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc  -o "Q3"  ./q3.o   
+Finished building target: Q3
+ 
+09:44:43 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.o" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc  -o "Q3"  ./q3.o   
+Finished building target: Q3
+ 
+09:47:46 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:49:47 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.o" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc  -o "Q3"  ./q3.o   
+Finished building target: Q3
+ 
+09:52:13 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:52:56 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:53:35 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:56:32 **** Build of configuration Debug for project Q5 ****
+make all 
+make: Nothing to be done for 'all'.
+09:56:44 **** Build of configuration Debug for project Q6 ****
+make all 
+make: Nothing to be done for 'all'.
+09:56:48 **** Incremental Build of configuration Debug for project Q6 ****
+make all 
+make: Nothing to be done for 'all'.
+09:57:00 **** Build of configuration Debug for project Q7 ****
+make all 
+make: Nothing to be done for 'all'.
+09:57:04 **** Incremental Build of configuration Debug for project Q7 ****
+make all 
+make: Nothing to be done for 'all'.
+09:57:08 **** Incremental Build of configuration Debug for project Q7 ****
+make all 
+make: Nothing to be done for 'all'.
+09:57:15 **** Build of configuration Debug for project Q8 ****
+make all 
+make: Nothing to be done for 'all'.
+09:57:20 **** Incremental Build of configuration Debug for project Q8 ****
+make all 
+make: Nothing to be done for 'all'.
+09:57:26 **** Clean-only build of configuration Debug for project Q9 ****
+make clean 
+rm -rf  ./q8.o  ./q8.d  Q8
+ 
+09:57:26 **** Build of configuration Debug for project Q9 ****
+make all 
+Building file: ../q9.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q9.d" -MT"q9.o" -o "q9.o" "../q9.c"
+Finished building: ../q9.c
+ 
+Building target: Q9
+Invoking: GCC C Linker
+gcc  -o "Q9"  ./q9.o   
+Finished building target: Q9
+ 
+09:57:32 **** Incremental Build of configuration Debug for project Q9 ****
+make all 
+make: Nothing to be done for 'all'.
+09:57:39 **** Build of configuration Debug for project Q10 ****
+make all 
+make: Nothing to be done for 'all'.

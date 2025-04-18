@@ -1,0 +1,84 @@
+/*
+ * q2.c
+ *
+ *  Created on: 26-Feb-2024
+ *      Author: root
+ */
+
+
+#include<stdio.h>
+void input(int m,int n,int (*p)[n]);
+void print(int m,int n,int (*p)[n]);
+void asort(int m,int n,int (*p)[n]);
+//void dsort(int m,int n,int (*p)[n]);
+int main()
+{
+	int n,m;
+	//taking the size of 2d array
+	printf("Enter the row & column of array");
+	scanf("%d %d",&m,&n);
+	int a[m][n];//declaring variable length 2d array
+
+	//taking input of 2d array using address
+	input(m,n,a);
+
+	//printing 2d array
+	print(m,n,a);
+
+
+	//printing 2d shorted array
+	printf("After shorting 2d array\n");
+	asort(m,n,a);
+	print(m,n,a);
+
+	return 0;
+}
+
+void input(int m,int n,int (*p)[n])
+{
+	int i,j;
+	printf("Enter the elements of Array");
+	for(i=0;i<m;i++)
+	{
+		for(j=0;j<n;j++)
+		{
+			printf("a[%d][%d]=",i,j);
+			scanf("%d",(*(p+i)+j));
+		}
+	}
+	return;
+}
+void print(int m,int n,int (*p)[n])
+{
+	int i,j;
+	for(i=0;i<m;i++)
+	{
+		for(j=0;j<n;j++)
+		{
+			printf("%d\t",*(*(p+i)+j));
+		}
+		printf("\n");
+	}
+	return;
+}
+void ashort(int m,int n,int (*p)[n])
+{
+	int i,j;
+	//shorting of 2d array
+		int temp[m*n],*ptr,l=0,swap;
+		ptr=temp;
+		//converting 2d to 1d
+		for(i=0;i<m;i++)
+		{
+			for(j=0;j<n;j++)
+			{
+				*(ptr+i)=*(*(p+i)+j);
+			}
+		}
+		// converted array printing
+		for(i=0;i<l;i++)
+		{
+			printf("%d\t",*(ptr+i));
+		}
+		return;
+}

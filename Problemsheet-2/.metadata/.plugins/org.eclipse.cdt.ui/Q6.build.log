@@ -1,0 +1,15 @@
+08:13:06 **** Incremental Build of configuration Debug for project Q6 ****
+make all 
+Building file: ../q6.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q6.d" -MT"q6.o" -o "q6.o" "../q6.c"
+Finished building: ../q6.c
+ 
+Building target: Q6
+Invoking: GCC C Linker
+gcc  -o "Q6"  ./q6.o   
+Finished building target: Q6
+ 
+
+08:13:07 Build Finished. 0 errors, 0 warnings. (took 914ms)
+

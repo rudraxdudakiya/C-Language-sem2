@@ -1,0 +1,1 @@
+pstructure.o: ../pstructure.c

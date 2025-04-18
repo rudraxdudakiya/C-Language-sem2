@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;pointer_palindrome/p-palingrome.c&apos; to &apos;p-palindrome.c&apos;" description="Rename resource &apos;p-palingrome.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="p-palingrome.c" name="p-palindrome.c" stamp="1708924072919" updateReferences="true"/>
+</session>

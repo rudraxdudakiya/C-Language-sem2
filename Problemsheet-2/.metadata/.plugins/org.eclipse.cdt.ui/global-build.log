@@ -1,0 +1,30 @@
+09:49:16 **** Build of configuration Debug for project Q16 ****
+make all 
+Building file: ../q16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q16.d" -MT"q16.o" -o "q16.o" "../q16.c"
+Finished building: ../q16.c
+ 
+Building target: Q16
+Invoking: GCC C Linker
+gcc  -o "Q16"  ./q16.o   
+Finished building target: Q16
+ 
+09:49:19 **** Incremental Build of configuration Debug for project Q16 ****
+make all 
+make: Nothing to be done for 'all'.
+09:49:37 **** Incremental Build of configuration Debug for project Q16 ****
+make all 
+make: Nothing to be done for 'all'.
+09:49:52 **** Incremental Build of configuration Debug for project Q16 ****
+make all 
+make: Nothing to be done for 'all'.
+09:49:56 **** Incremental Build of configuration Debug for project Q16 ****
+make all 
+make: Nothing to be done for 'all'.
+09:50:01 **** Incremental Build of configuration Debug for project Q16 ****
+make all 
+make: Nothing to be done for 'all'.
+09:50:07 **** Incremental Build of configuration Debug for project Q16 ****
+make all 
+make: Nothing to be done for 'all'.

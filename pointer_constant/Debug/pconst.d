@@ -1,0 +1,1 @@
+pconst.o: ../pconst.c

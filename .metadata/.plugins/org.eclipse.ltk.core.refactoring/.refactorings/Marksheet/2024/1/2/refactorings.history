@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Marksheet/struct.c&apos; to &apos;marksheet.c&apos;" description="Rename resource &apos;struct.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="struct.c" name="marksheet.c" stamp="1704687654158" updateReferences="true"/>
+</session>

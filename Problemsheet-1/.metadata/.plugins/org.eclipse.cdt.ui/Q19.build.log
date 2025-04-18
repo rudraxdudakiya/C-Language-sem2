@@ -1,0 +1,15 @@
+09:14:40 **** Incremental Build of configuration Debug for project Q19 ****
+make all 
+Building file: ../q19.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q19.d" -MT"q19.o" -o "q19.o" "../q19.c"
+Finished building: ../q19.c
+ 
+Building target: Q19
+Invoking: GCC C Linker
+gcc  -o "Q19"  ./q19.o   
+Finished building target: Q19
+ 
+
+09:14:40 Build Finished. 0 errors, 0 warnings. (took 213ms)
+

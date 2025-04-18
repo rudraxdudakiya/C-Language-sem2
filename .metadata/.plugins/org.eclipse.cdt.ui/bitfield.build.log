@@ -1,0 +1,23 @@
+08:16:07 **** Incremental Build of configuration Debug for project bitfield ****
+make all 
+Building file: ../bit.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"bit.d" -MT"bit.o" -o "bit.o" "../bit.c"
+../bit.c: In function ‘main’:
+../bit.c:20:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+   20 |  printf("size of t1=%d",sizeof(t1));
+      |                     ~^  ~~~~~~~~~~
+      |                      |  |
+      |                      |  long unsigned int
+      |                      int
+      |                     %ld
+Finished building: ../bit.c
+ 
+Building target: bitfield
+Invoking: GCC C Linker
+gcc  -o "bitfield"  ./bit.o   
+Finished building target: bitfield
+ 
+
+08:16:08 Build Finished. 0 errors, 1 warnings. (took 260ms)
+

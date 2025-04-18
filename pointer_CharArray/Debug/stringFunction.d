@@ -1,0 +1,1 @@
+stringFunction.o: ../stringFunction.c

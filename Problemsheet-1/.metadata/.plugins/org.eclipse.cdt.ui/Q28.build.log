@@ -1,0 +1,15 @@
+08:33:24 **** Incremental Build of configuration Debug for project Q28 ****
+make all 
+Building file: ../q28.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q28.d" -MT"q28.o" -o "q28.o" "../q28.c"
+Finished building: ../q28.c
+ 
+Building target: Q28
+Invoking: GCC C Linker
+gcc  -o "Q28"  ./q28.o   
+Finished building target: Q28
+ 
+
+08:33:24 Build Finished. 0 errors, 0 warnings. (took 212ms)
+

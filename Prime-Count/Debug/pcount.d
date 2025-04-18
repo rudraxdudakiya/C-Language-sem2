@@ -1,0 +1,1 @@
+pcount.o: ../pcount.c

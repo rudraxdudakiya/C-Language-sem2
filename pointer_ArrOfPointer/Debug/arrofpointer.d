@@ -1,0 +1,1 @@
+arrofpointer.o: ../arrofpointer.c

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;pointer_CallByReference/callbyreference&apos; to &apos;callbyreference.c&apos;" description="Rename resource &apos;callbyreference&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="callbyreference" name="callbyreference.c" stamp="1707987036557" updateReferences="true"/>
+</session>
