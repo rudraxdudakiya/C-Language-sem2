@@ -1,0 +1,4 @@
+# Ignore everything except C files for language stats
+* linguist-detectable=false
+*.c linguist-detectable=true
+*.h linguist-detectable=true
